@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 
-column_names = ['serial', 'date', 'age', 'distance', 'stores', 'latitude', 'longitude', 'price']
+column_names = ['number', 'date', 'age', 'distance', 'stores', 'latitude', 'longitude', 'price']
 
 def plot_loss(history):
     h = history.history
